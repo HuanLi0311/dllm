@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.cache/
+.ruff_cache/
+.venv/
+checkpoints/
+figures/
+runtime/
+*.log
+*.pt
+*.npy
+*.f16
+
+# Local envelopes contain machine provenance. Publish evidence/ instead.
+runs/*
+!runs/data/
+!runs/data/**

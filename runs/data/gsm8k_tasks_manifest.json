@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "output": "runs/data/gsm8k_tasks.jsonl",
+  "sha256": "a191018cd0cbe45b66f6bbb19d5ee1d6f932e56cb272133778d67a91eb0e0b99",
+  "source_train_sha256": "52ebf7c73927f7434abbb2f7b705a82fb3dbdd4695438b7654de78b701c23b36",
+  "source_test_sha256": "8530a3775b96385370842171f226d83de7c5b27d779be54ef0411d255a939818",
+  "tokenizer": "assets/tinyllama-tokenizer",
+  "tasks": 5,
+  "train_records": 640,
+  "eval_records": 320,
+  "sequence_length": 64,
+  "tokenizer_vocab_size": 32000,
+  "ordering": "source order; contiguous task blocks; no shuffling"
+}

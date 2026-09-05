@@ -1,0 +1,6 @@
+# Reproduced LLaDA-8B environment: Python 3.10, CUDA 12.1, A100 40GB.
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.5.1
+transformers==4.46.0
+safetensors==0.4.5

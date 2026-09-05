@@ -1,0 +1,2 @@
+# Preserve the hashed upstream snapshot byte-for-byte.
+SMDM/** whitespace=-trailing-space

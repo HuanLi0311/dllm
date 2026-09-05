@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "status": "ok",
+  "contract_script_sha256": "bf13929bd3acdfb77022b19a8fb931d90885ba7bca14170ccdf2add91930bd3a",
+  "artifacts": [
+    {
+      "group": "gsm8k_all_targets",
+      "seed": 0,
+      "path": "evidence/raw/runs/r12_audited_controls/gsm_all_170_s0/benchmark.json.gz",
+      "sha256": "d8ffdfb9bf852a56e979a504943d9610729bf563e23a3d65387d0cafdbf5ad17",
+      "probe_sha256": "991113e2856385fd5e85972825b7324177e7c238b2ad44075e77b9577da52cd2"
+    },
+    {
+      "group": "gsm8k_all_targets",
+      "seed": 1,
+      "path": "evidence/raw/runs/r12_audited_controls/gsm_all_170_s1/benchmark.json.gz",
+      "sha256": "d935857ffb4a9645a6cf9ddcd768901f89d4cd6f1529499921d5e54eff2ad04c",
+      "probe_sha256": "991113e2856385fd5e85972825b7324177e7c238b2ad44075e77b9577da52cd2"
+    },
+    {
+      "group": "gsm8k_all_targets",
+      "seed": 2,
+      "path": "evidence/raw/runs/r12_audited_controls/gsm_all_170_s2/benchmark.json.gz",
+      "sha256": "9ad6e79e2f0a6d287fe03ae9a6f0c311b0c2a74a79261f758a7e7ae0b73cbf81",
+      "probe_sha256": "991113e2856385fd5e85972825b7324177e7c238b2ad44075e77b9577da52cd2"
+    },
+    {
+      "group": "gsm8k_one_target",
+      "seed": 0,
+      "path": "evidence/raw/runs/r12_audited_controls/gsm_one_170_s0/benchmark.json.gz",
+      "sha256": "0be8a54d575d2389f846b930f486e0f90f1454c945cdac4d77aa5434e156497e",
+      "probe_sha256": "991113e2856385fd5e85972825b7324177e7c238b2ad44075e77b9577da52cd2"
+    },
+    {
+      "group": "gsm8k_one_target",
+      "seed": 1,
+      "path": "evidence/raw/runs/r12_audited_controls/gsm_one_170_s1_retry/benchmark.json.gz",
+      "sha256": "a59590615bf64165ae91a8431068433b4cbd093a6871047950a3d222863d226b",
+      "probe_sha256": "991113e2856385fd5e85972825b7324177e7c238b2ad44075e77b9577da52cd2"
+    },
+    {
+      "group": "gsm8k_one_target",
+      "seed": 2,
+      "path": "evidence/raw/runs/r12_audited_controls/gsm_one_170_s2/benchmark.json.gz",
+      "sha256": "b8164316421a19feb90cfb29d7acb82616067afa5b48db91d4451033275aae04",
+      "probe_sha256": "991113e2856385fd5e85972825b7324177e7c238b2ad44075e77b9577da52cd2"
+    }
+  ],
+  "objective_pairs": [
+    {
+      "seed": 0,
+      "all_target": "evidence/raw/runs/r12_audited_controls/gsm_all_170_s0/benchmark.json.gz",
+      "one_target": "evidence/raw/runs/r12_audited_controls/gsm_one_170_s0/benchmark.json.gz",
+      "calibration_records_sha256": "e36f0e3249782db4ae22e1bfe715dcc4c6c4a36254a5ca2a9b01c44067ffca51",
+      "test_records_sha256": "074832c4147df5c4b931dcc31da453848568f21c8b3d376153ec5377886407bf",
+      "mask_hashes": [
+        {
+          "mask_condition": "fixed_0.1",
+          "probabilities_sha256": "5a283102fe603f5eb0da67b8776a9220846de9533d5dedbd1d7e83d4da9b8c03",
+          "calibration_mask_sha256": "d0f643bcc108642b5eb08741b808700e6b0a9cb5e6734a9f43eed89b43fa294c",
+          "test_mask_sha256": "41165be8024f3c967ec330cff25790714369a7061595f7a233df281bf84f43cf",
+          "selected_target_indices_sha256": "653a481f3c0b934b9da1c73b23b7d46bbef2ea4639a80b128df932e4568b6c12"
+        },
+        {
+          "mask_condition": "fixed_0.3",
+          "probabilities_sha256": "727b576b322f0f75a2bbdadaf71c7bb24c698c037b98484d765232476029fc3b",
+          "calibration_mask_sha256": "e6f99b4c743a5674cf90d321d72abb1cf153f6dc26c6e2c19a5e91668d39a3df",
+          "test_mask_sha256": "ef383d682f6e2ff38db6cd6548b3d66a17c71f3c25cbdabb1131f9f94ce710ce",
+          "selected_target_indices_sha256": "4747df571ec1fcce08aa45270379d7856650951ce7934d51b3a7d4802078aeb4"
+        },
+        {
+          "mask_condition": "fixed_0.5",
+          "probabilities_sha256": "9b7bd71d9509d0605f08275259ddcd4fb2fed71a59deb2ed5bd8370045a05119",
+          "calibration_mask_sha256": "df5fd482615202e099dd5e0e2dc86d953192a02a708b9b34cbbb83aee5413a1d",
+          "test_mask_sha256": "f15268a8343801d0c27cd415ad4428f410bb2765a434844ee187721de249f037",
+          "selected_target_indices_sha256": "f8e9c531d1ed53488effb4652b1c340ed841c26f1d1c7fe6b5a8cef7d4fbeb1e"
+        },
+        {
+          "mask_condition": "fixed_0.7",
+          "probabilities_sha256": "030efe07ea81a46edf702036c517c72c500cbd4620ae99f7d302f76100a75f40",
+          "calibration_mask_sha256": "2e85999b2177a3a4aee2a8b46c2cf083e222143946e819e76d003828a9617cbf",
+          "test_mask_sha256": "b36b278cf3917529ffbe243238865ef11b8da7d1f44cffe4d1b5d3c123c6faad",
+          "selected_target_indices_sha256": "443985b13b6106e1f66eb7cce390351b663a27f7352288a6f330e677ae0ab0f7"
+        },
+        {
+          "mask_condition": "fixed_0.9",
+          "probabilities_sha256": "0546b8d6bc6f8ac5b9d9d396ca7dab718b22f34fa19420d1b9a927da5fcd813e",
+          "calibration_mask_sha256": "565af28ce87175cefa00161c4811575533b9beb42f3124dd37bca48c610217d6",
+          "test_mask_sha256": "b509c4dd0494673472646311d28c1a186c03781bfa56c79db4f9dda05a4f5060",
+          "selected_target_indices_sha256": "737b430228aebe5fceb5c32ac166845014558da4e52e0f7333cf61c96027ae56"
+        },
+        {
+          "mask_condition": "native_schedule",
+          "probabilities_sha256": "5bc358125e92eab7ec3c5ebbe364b3589b855e54da5785d5a7de3f333fab148b",
+          "calibration_mask_sha256": "39a8b98bdb357c6ab727a10321f513c1e0b27f07605037614d8280ec415d5999",
+          "test_mask_sha256": "90ffb63688586848db6a1c9fb968ee5d04fbd6adab082b4a5c3c68c879b603fc",
+          "selected_target_indices_sha256": "67b31d061a1b6d9bdaa3ef01e95b49a9d17577d081f136eb0c4ade0f238a7710"
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "all_target": "evidence/raw/runs/r12_audited_controls/gsm_all_170_s1/benchmark.json.gz",
+      "one_target": "evidence/raw/runs/r12_audited_controls/gsm_one_170_s1_retry/benchmark.json.gz",
+      "calibration_records_sha256": "b2365a93665572b6b3fab1cb6b34514691ec04ee40ba75b5ec4888bee03fa215",
+      "test_records_sha256": "60e3850e940b885bcafb61f89b515ee64d34fa1ffce711bdfff2843472ed097b",
+      "mask_hashes": [
+        {
+          "mask_condition": "fixed_0.1",
+          "probabilities_sha256": "5a283102fe603f5eb0da67b8776a9220846de9533d5dedbd1d7e83d4da9b8c03",
+          "calibration_mask_sha256": "af8b2cbdfc54626612705b9f1cd5ad2f99fc7ee8789aa7d67c00e6729692b984",
+          "test_mask_sha256": "7c036fea5b878bf17bc25d8ef8873d3415939daa1a2a4ff0454c64fe03264f43",
+          "selected_target_indices_sha256": "345d3b46866d0b235ade711457dae5869899d292ffd61ecc5c532fd5ceaddbb4"
+        },
+        {
+          "mask_condition": "fixed_0.3",
+          "probabilities_sha256": "727b576b322f0f75a2bbdadaf71c7bb24c698c037b98484d765232476029fc3b",
+          "calibration_mask_sha256": "9a29af70f3c956b81fd8472f5f18f12c9fc8e0f91a4c9a382f931a59e19bf6aa",
+          "test_mask_sha256": "4d9a21ffa642a01c3efa870517777d7bc6f7fbba205d79914b2695b0a747bd6b",
+          "selected_target_indices_sha256": "47f474b06ff5805bd6c9dfb9a978e033d67e42e7a679f6dbdfb2d4ca22648a3f"
+        },
+        {
+          "mask_condition": "fixed_0.5",
+          "probabilities_sha256": "9b7bd71d9509d0605f08275259ddcd4fb2fed71a59deb2ed5bd8370045a05119",
+          "calibration_mask_sha256": "d3a482507c5d5ae7a092d449176359941e1eea7aee7e11ac00c355c6dc749ca3",
+          "test_mask_sha256": "0fcccf5b7253cda4fffe996cf7731ff5abca4e61be65a4775a18df3eec7aec89",
+          "selected_target_indices_sha256": "a4ae3ca666a78cf1e3db60aada8ad33561a4599371f1e00a9cad2f0fbb13580d"
+        },
+        {
+          "mask_condition": "fixed_0.7",
+          "probabilities_sha256": "030efe07ea81a46edf702036c517c72c500cbd4620ae99f7d302f76100a75f40",
+          "calibration_mask_sha256": "cdee229401741ed0ee21bb50b76f6acce1a469a1baf60f8e6405457890b46386",
+          "test_mask_sha256": "33802df0ad8098f873256d92a2fd5ef6814207d2013feaac4449e4f7c6edf3af",
+          "selected_target_indices_sha256": "9d06db449a7ab1a43e8698a82a4ce1b31bf02e11fcfa62ec30d8931e7a1fb6f5"
+        },
+        {
+          "mask_condition": "fixed_0.9",
+          "probabilities_sha256": "0546b8d6bc6f8ac5b9d9d396ca7dab718b22f34fa19420d1b9a927da5fcd813e",
+          "calibration_mask_sha256": "7a2560666db626cb87795645e3a6eb4301e79e2b6ccf3a162a7a75d6e6f84d9a",
+          "test_mask_sha256": "17db769f84bb9230b80b204a4e18a023ecbd23724dc0408901a1f138bcf18650",
+          "selected_target_indices_sha256": "25e1eef0e205db051799b2e9483dfdde3b9fbb5dd1e21fb6f0dc03ca38cfe5cb"
+        },
+        {
+          "mask_condition": "native_schedule",
+          "probabilities_sha256": "8303df4e73a4d56eb60ce00d20ccf95d3dbc4ab784461f05fa9cf601e2a53fed",
+          "calibration_mask_sha256": "68943c2c3bf0683574ca08fe7ea980100dd4f8c93d9017550445efc5ab0d34ec",
+          "test_mask_sha256": "2f4df61f71e1153d02b49fe0d1408c3ae81441afbb28152fe73a98c4f97dda86",
+          "selected_target_indices_sha256": "6c87da2131dcf1e0a12b98caee9f97380f2c345704778f310574b94e4d185281"
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "all_target": "evidence/raw/runs/r12_audited_controls/gsm_all_170_s2/benchmark.json.gz",
+      "one_target": "evidence/raw/runs/r12_audited_controls/gsm_one_170_s2/benchmark.json.gz",
+      "calibration_records_sha256": "3407f2bbfb61131ea21d66e92b73945906470af58666855d42e9277981afbc8a",
+      "test_records_sha256": "5b50b4f500a5013ec2c2d599f31c4c84526513e5ab4cd25b89f0801902e664e3",
+      "mask_hashes": [
+        {
+          "mask_condition": "fixed_0.1",
+          "probabilities_sha256": "5a283102fe603f5eb0da67b8776a9220846de9533d5dedbd1d7e83d4da9b8c03",
+          "calibration_mask_sha256": "3bfa7c930c09364b9a89fb2b6e9f2834ea2e784498b0b5e7d149389923704b42",
+          "test_mask_sha256": "4aa6dbce9032af1d820f631bc4b220bbae8010c287cba9367b80c50fe7c00c14",
+          "selected_target_indices_sha256": "9ca4a0496aabe733a3f62a2aafd701936c6e13f5f82c8175d50b7e0b23e94175"
+        },
+        {
+          "mask_condition": "fixed_0.3",
+          "probabilities_sha256": "727b576b322f0f75a2bbdadaf71c7bb24c698c037b98484d765232476029fc3b",
+          "calibration_mask_sha256": "126bb145efed01f1c45b1e02ed0528960369ef87288c5528b8351748b6c3c57e",
+          "test_mask_sha256": "d3220085afdb2a49976e7b5c870445267fded2611f2e82ec0a122655e6de69f0",
+          "selected_target_indices_sha256": "4607813a1bb63e1b364b3dfd7e4837026c10ca2a980f044613a107d1dd8ea21a"
+        },
+        {
+          "mask_condition": "fixed_0.5",
+          "probabilities_sha256": "9b7bd71d9509d0605f08275259ddcd4fb2fed71a59deb2ed5bd8370045a05119",
+          "calibration_mask_sha256": "da00d716440f600499071536d39f3d24b5013dc39ff1c0a1a1c8ce899b7360c5",
+          "test_mask_sha256": "55373f9feb66c961b7d23b630cddda7b4a72b146f20fa64e58876fb140d6e1f4",
+          "selected_target_indices_sha256": "0b831554204f4739bec0319379765c1fc2a9ba8def6e01231836adde7d3e84d6"
+        },
+        {
+          "mask_condition": "fixed_0.7",
+          "probabilities_sha256": "030efe07ea81a46edf702036c517c72c500cbd4620ae99f7d302f76100a75f40",
+          "calibration_mask_sha256": "aff4eb4f07a12ba815763b17989527429bbe9b74857a3f5fbdd7f22b4b66f036",
+          "test_mask_sha256": "534db79bde0e4462d57fd0dfab5aa5daeebeb6e8dd9d9fe4c72bd0b7ead145dd",
+          "selected_target_indices_sha256": "49e6d2808f91f4f5131f4befd83bc66b919911780b5a6997a18c5cf0d0c10efd"
+        },
+        {
+          "mask_condition": "fixed_0.9",
+          "probabilities_sha256": "0546b8d6bc6f8ac5b9d9d396ca7dab718b22f34fa19420d1b9a927da5fcd813e",
+          "calibration_mask_sha256": "8e6d7660ba949898a3bb67c5172a69cce861f8b20021cabbc762306d012ebc9d",
+          "test_mask_sha256": "5f8219c3cc6412fd03a900982e1fdd86d05416dc87381a3c061f4ddd198a7096",
+          "selected_target_indices_sha256": "f363a0206e34e85eb6dd0ac5b1d75b843f13d04f5fd0b6a9f3894468adf28687"
+        },
+        {
+          "mask_condition": "native_schedule",
+          "probabilities_sha256": "4e0832ccd27d5f67f5f11029840db5b468d517951d93302bed0dfa9cd5d9f2ac",
+          "calibration_mask_sha256": "713ee386a76f55bfbcc6ab7f215e92acbee72f717e2af2c32e260938edd828ec",
+          "test_mask_sha256": "777e95efaaaa54afe20ff646daf629eef08003ff05328b5bd4cae7cae0f6b311",
+          "selected_target_indices_sha256": "0dacf775ca1b3703cf40ba118b65fa5ee2f9b1e60f3f57666f48913845bc2b3d"
+        }
+      ]
+    }
+  ],
+  "verified": [
+    "identical calibration/test sizes and grids",
+    "identical objective-pair record identities and corrupted masks",
+    "expected task IDs and loss modes for both comparison groups",
+    "identical audited-wrapper and frozen base-probe hashes",
+    "rank-1 and diagonal errors recomputed from stored sufficient statistics"
+  ]
+}

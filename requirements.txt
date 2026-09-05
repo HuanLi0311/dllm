@@ -1,0 +1,21 @@
+# SMDM probe environment: Python 3.9.25, CUDA 12.1, NVIDIA A100-PCIE-40GB.
+# LLaDA-8B was run in a separate environment with torch==2.5.1 and
+# transformers==4.46.0 because its remote model code requires a newer
+# Transformers release; do not try to merge those incompatible pins here.
+# The PyTorch wheel is selected from the CUDA 12.1 index; CPU-only users should
+# install a matching torch wheel before installing the remaining packages.
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.4.1
+numpy==2.0.2
+setuptools==80.9.0
+packaging==24.2
+safetensors==0.4.5
+transformers==4.31.0
+lightning==2.1.2
+lightning-utilities==0.11.8
+typing-extensions==4.16.0
+einops==0.6.1
+xformers==0.0.28.post1
+matplotlib==3.9.4
+huggingface-hub==0.36.2
